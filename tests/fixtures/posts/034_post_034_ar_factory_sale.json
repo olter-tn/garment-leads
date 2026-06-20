@@ -1,0 +1,9 @@
+{
+  "id": "post_034_ar_factory_sale",
+  "text": "للبيع معدات مصنع ملابس و machines confection. للتواصل 77 123 321",
+  "expected_phones": [
+    "+21677123321"
+  ],
+  "expected_intent": "factory",
+  "expected_leads": 1
+}

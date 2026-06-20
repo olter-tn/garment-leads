@@ -1,0 +1,7 @@
+{
+  "id": "post_021_no_phone_ar",
+  "text": "مطلوب خياطات في تونس الكبرى. الرجاء ترك تعليق لمن يهمها الأمر.",
+  "expected_phones": [],
+  "expected_intent": "job_offer",
+  "expected_leads": 0
+}

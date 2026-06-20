@@ -1,0 +1,9 @@
+{
+  "id": "post_023_dots",
+  "text": "Atelier broderie et impression sur t-shirts. Tél: 99.888.777",
+  "expected_phones": [
+    "+21699888777"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

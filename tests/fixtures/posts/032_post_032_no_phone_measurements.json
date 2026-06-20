@@ -1,0 +1,7 @@
+{
+  "id": "post_032_no_phone_measurements",
+  "text": "Patronage tailles 34 36 38 40, longueur 120 cm, livraison 01/07/2026. No contact number.",
+  "expected_phones": [],
+  "expected_intent": "other",
+  "expected_leads": 0
+}

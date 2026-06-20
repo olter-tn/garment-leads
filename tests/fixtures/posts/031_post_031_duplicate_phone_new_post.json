@@ -1,0 +1,9 @@
+{
+  "id": "post_031_duplicate_phone_new_post",
+  "text": "خياطة تفصيل في سوسة نفس الرقم للتواصل 54 123 456",
+  "expected_phones": [
+    "+21654123456"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

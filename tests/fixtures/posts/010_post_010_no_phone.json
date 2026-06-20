@@ -1,0 +1,7 @@
+{
+  "id": "post_010_no_phone",
+  "text": "Atelier couture disponible pour petites séries, envoyez message privé فقط.",
+  "expected_phones": [],
+  "expected_intent": "atelier",
+  "expected_leads": 0
+}

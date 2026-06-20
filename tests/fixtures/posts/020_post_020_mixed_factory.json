@@ -1,0 +1,9 @@
+{
+  "id": "post_020_mixed_factory",
+  "text": "مصنع / factory de vêtements cherche clients export. Contact 73 444 111",
+  "expected_phones": [
+    "+21673444111"
+  ],
+  "expected_intent": "factory",
+  "expected_leads": 1
+}

@@ -1,0 +1,9 @@
+{
+  "id": "post_024_slashes",
+  "text": "Sous traitant piquage disponible pour donneur d'ordre. Phone 28/222/333",
+  "expected_phones": [
+    "+21628222333"
+  ],
+  "expected_intent": "subcontractor",
+  "expected_leads": 1
+}

@@ -1,0 +1,9 @@
+{
+  "id": "post_026_dashes",
+  "text": "مشغل تطريز و طرز يقبل طلبات عبايات و فساتين. اتصل 95-666-777",
+  "expected_phones": [
+    "+21695666777"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

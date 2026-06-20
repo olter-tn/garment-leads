@@ -1,0 +1,10 @@
+{
+  "id": "post_030_multi_ar_fr",
+  "text": "نبيع أقمشة satin/popeline و accessoires couture. Tel 52 333 444 et 53.444.555",
+  "expected_phones": [
+    "+21652333444",
+    "+21653444555"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 2
+}

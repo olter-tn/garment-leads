@@ -1,0 +1,7 @@
+{
+  "id": "post_011_false_date_size",
+  "text": "Offre valable le 12/06/2026. Tailles disponibles 36 38 40 42, prix 120 DT. Pas de numéro.",
+  "expected_phones": [],
+  "expected_intent": "other",
+  "expected_leads": 0
+}

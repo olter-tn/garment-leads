@@ -1,0 +1,9 @@
+{
+  "id": "post_006_fr_fabric",
+  "text": "Grossiste tissu: popeline, jersey, satin, boutons et fermeture éclair. Contact 71.222.333",
+  "expected_phones": [
+    "+21671222333"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 1
+}

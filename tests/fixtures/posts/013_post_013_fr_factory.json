@@ -1,0 +1,9 @@
+{
+  "id": "post_013_fr_factory",
+  "text": "Usine de confection industrielle vend machine et chaine de production. Contact: 21676123456",
+  "expected_phones": [
+    "+21676123456"
+  ],
+  "expected_intent": "factory",
+  "expected_leads": 1
+}

@@ -1,0 +1,9 @@
+{
+  "id": "post_014_ar_sub",
+  "text": "نخدمو كميات كبيرة فاسو و مناولة، جودة مليحة و تسليم في الوقت. ☎ 90 111 333",
+  "expected_phones": [
+    "+21690111333"
+  ],
+  "expected_intent": "subcontractor",
+  "expected_leads": 1
+}

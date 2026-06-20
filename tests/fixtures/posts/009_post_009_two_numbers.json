@@ -1,0 +1,10 @@
+{
+  "id": "post_009_two_numbers",
+  "text": "Usine textile recrute couturières et chefs de chaine. Tél +216 24 555 666 / WhatsApp 58 777 888",
+  "expected_phones": [
+    "+21624555666",
+    "+21658777888"
+  ],
+  "expected_intent": "job_offer",
+  "expected_leads": 2
+}

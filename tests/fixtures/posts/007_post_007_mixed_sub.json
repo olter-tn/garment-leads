@@ -1,0 +1,9 @@
+{
+  "id": "post_007_mixed_sub",
+  "text": "نقبلو كميات piquage و broderie en sous-traitance، atelier à Ariana 27-444-555",
+  "expected_phones": [
+    "+21627444555"
+  ],
+  "expected_intent": "subcontractor",
+  "expected_leads": 1
+}

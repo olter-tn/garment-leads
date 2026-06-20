@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.fb_cookies.json
+garment_leads/fb_cookies.json
+
+# Runtime data
+*.sqlite3
+*.sqlite3-journal
+exports/
+logs/
+raw_responses/
+
+# CI/Coverage
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db

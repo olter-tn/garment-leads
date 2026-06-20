@@ -1,0 +1,9 @@
+{
+  "id": "post_012_fr_job",
+  "text": "Société textile recrute des ouvrières de piquage. Téléphone 00216 23 987 654",
+  "expected_phones": [
+    "+21623987654"
+  ],
+  "expected_intent": "job_offer",
+  "expected_leads": 1
+}

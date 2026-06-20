@@ -1,0 +1,9 @@
+{
+  "id": "post_028_plus_no_spaces",
+  "text": "نشرى قماش بالجملة jersey و popeline، رقم الهاتف +21629123456",
+  "expected_phones": [
+    "+21629123456"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 1
+}

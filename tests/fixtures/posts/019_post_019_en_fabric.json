@@ -1,0 +1,9 @@
+{
+  "id": "post_019_en_fabric",
+  "text": "Fabric supplier: jersey, poplin, satin and trims for garment workshops. Call 78 555 121",
+  "expected_phones": [
+    "+21678555121"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 1
+}

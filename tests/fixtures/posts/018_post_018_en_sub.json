@@ -1,0 +1,9 @@
+{
+  "id": "post_018_en_sub",
+  "text": "Garment subcontractor available for bulk orders and CMT outsourcing. WhatsApp +216 25 101 202",
+  "expected_phones": [
+    "+21625101202"
+  ],
+  "expected_intent": "subcontractor",
+  "expected_leads": 1
+}

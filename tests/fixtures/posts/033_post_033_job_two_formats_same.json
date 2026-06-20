@@ -1,0 +1,9 @@
+{
+  "id": "post_033_job_two_formats_same",
+  "text": "recrutement piquage urgent. Tél 24 555 666 ou +216 24 555 666",
+  "expected_phones": [
+    "+21624555666"
+  ],
+  "expected_intent": "job_offer",
+  "expected_leads": 1
+}

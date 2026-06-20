@@ -1,0 +1,9 @@
+{
+  "id": "post_027_00216_compact",
+  "text": "Offre emploi: cherche couturiere experimentee. Contact 0021626123456",
+  "expected_phones": [
+    "+21626123456"
+  ],
+  "expected_intent": "job_offer",
+  "expected_leads": 1
+}

@@ -1,0 +1,9 @@
+{
+  "id": "post_035_atelier_name",
+  "text": "Atelier Mariem couture retouche et confection robes. Nom: Mariem Ben A. Téléphone 92 555 444",
+  "expected_phones": [
+    "+21692555444"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

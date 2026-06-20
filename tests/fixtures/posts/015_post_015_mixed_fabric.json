@@ -1,0 +1,9 @@
+{
+  "id": "post_015_mixed_fabric",
+  "text": "قماش popeline و satin disponible، fournisseur tissu à Ben Arous. Tél: 70/222/444",
+  "expected_phones": [
+    "+21670222444"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 1
+}

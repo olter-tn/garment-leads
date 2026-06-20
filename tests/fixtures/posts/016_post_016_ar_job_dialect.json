@@ -1,0 +1,9 @@
+{
+  "id": "post_016_ar_job_dialect",
+  "text": "نلوج على خياطة ماهرة للعمل في أتيلي عرائس. الرقم 21 333 999",
+  "expected_phones": [
+    "+21621333999"
+  ],
+  "expected_intent": "job_offer",
+  "expected_leads": 1
+}

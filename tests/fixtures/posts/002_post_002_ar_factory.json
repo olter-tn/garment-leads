@@ -1,0 +1,9 @@
+{
+  "id": "post_002_ar_factory",
+  "text": "معمل ملابس في صفاقس نبيع خط انتاج تريكو و نقبل شراكات. الهاتف +216 22 345 678",
+  "expected_phones": [
+    "+21622345678"
+  ],
+  "expected_intent": "factory",
+  "expected_leads": 1
+}

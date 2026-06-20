@@ -1,0 +1,9 @@
+{
+  "id": "post_001_ar_atelier",
+  "text": "أنا خياطة من سوسة نخدم تفصيل و طرز للنساء. للتواصل 📞 54 123 456",
+  "expected_phones": [
+    "+21654123456"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

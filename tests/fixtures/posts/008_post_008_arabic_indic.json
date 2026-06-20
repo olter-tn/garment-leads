@@ -1,0 +1,9 @@
+{
+  "id": "post_008_arabic_indic",
+  "text": "مشغل خياطة في نابل نخدم تفصيل و retouche. الهاتف ٥٤١٢٣٤٥٦",
+  "expected_phones": [
+    "+21654123456"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

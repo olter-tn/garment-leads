@@ -1,0 +1,9 @@
+{
+  "id": "post_017_en_atelier",
+  "text": "Small sewing atelier accepts tailoring, embroidery and pattern making orders. Phone 96 444 222",
+  "expected_phones": [
+    "+21696444222"
+  ],
+  "expected_intent": "atelier",
+  "expected_leads": 1
+}

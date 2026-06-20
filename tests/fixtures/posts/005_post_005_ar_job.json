@@ -1,0 +1,9 @@
+{
+  "id": "post_005_ar_job",
+  "text": "مطلوب خياطات للعمل في مشغل ملابس جاهزة. Tel: (55) 123 987",
+  "expected_phones": [
+    "+21655123987"
+  ],
+  "expected_intent": "job_offer",
+  "expected_leads": 1
+}

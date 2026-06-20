@@ -1,0 +1,9 @@
+{
+  "id": "post_029_local_compact",
+  "text": "معمل تريكو يطلب sous-traitance في القص والخياطة. 57111222",
+  "expected_phones": [
+    "+21657111222"
+  ],
+  "expected_intent": "subcontractor",
+  "expected_leads": 1
+}

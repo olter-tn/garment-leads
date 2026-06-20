@@ -1,0 +1,7 @@
+{
+  "id": "post_022_false_groupid",
+  "text": "Lien groupe 284751225383775 et quantité 100 000 pièces. Prix 54.123 dinars. لا يوجد هاتف.",
+  "expected_phones": [],
+  "expected_intent": "other",
+  "expected_leads": 0
+}

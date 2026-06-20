@@ -1,0 +1,128 @@
+languages:
+  ar:
+    - intent: job_offer
+      language: ar
+      keywords: ["مطلوب", "انتداب", "ننتدب", "عاملات", "خياطات", "خياطة للعمل", "مشغل ينتدب", "يلزمنا", "نلوج على خياطة"]
+      weight: 6
+      require_phone: false
+      exclude_keywords: ["للبيع", "نبيع"]
+    - intent: atelier
+      language: ar
+      keywords: ["خياطة", "تفصيل", "تفصيلة", "نخدم", "نقبل", "مشغل", "طرز", "تطريز", "اتيلي", "أتيلي", "ورشة", "تريكو", "انخيط", "اخيط", "نخيط", "موداليست", "حياكة", "ابرة"]
+      weight: 3
+      require_phone: false
+      exclude_keywords: ["معمل كبير", "مصنع"]
+    - intent: factory
+      language: ar
+      keywords: ["معمل", "مصنع", "وحدة انتاج", "وحدة إنتاج", "تصنيع", "صناعة الملابس", "نبيع خط انتاج"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []
+    - intent: subcontractor
+      language: ar
+      keywords: ["مناولة", "مناول", "نخدم كميات", "نخدمو كميات", "نقبل كميات", "نقبلو كميات", "كمية", "كميات", "نخدم فاسو", "فاصون"]
+      weight: 6
+      require_phone: false
+      exclude_keywords: []
+    - intent: fabric_supplier
+      language: ar
+      keywords: ["قماش", "أقمشة", "اقمشة", "لوازم الخياطة", "خيوط", "نبيع", "نشرى", "جرسي", "ساتان", "بوبلين"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: ["خياطة للعمل"]
+  # Tunisian Darija (Arabic dialect) — written in Arabic script
+  # Many comments in the target group use Darija, not MSA.
+  # Only Darija-specific keywords here — MSA keywords are already in `ar`.
+  tn:
+    - intent: atelier
+      language: tn
+      keywords: ["مرحبا بيك", "مرحبا بيك", "مرحبا في", "مرحبا فى", "عندي", "موجود", "نخيط", "انخيط", "اخيط", "موداليست", "ستيل", "نخدملك", "na5dem", "na5demlek", "n5dm", "marhba", "mar7ba", "mar7ba bik", "marhba bik"]
+      weight: 3
+      require_phone: false
+      exclude_keywords: []
+    - intent: subcontractor
+      language: tn
+      keywords: ["نقبل كميات", "نخدم كميات", "فاصون", "fasoon", "نخدم فاسو"]
+      weight: 6
+      require_phone: false
+      exclude_keywords: []
+    - intent: factory
+      language: tn
+      keywords: ["مصنعية"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []
+    - intent: job_offer
+      language: tn
+      keywords: ["يلزمنا", "نلوج"]
+      weight: 6
+      require_phone: false
+      exclude_keywords: ["للبيع"]
+    - intent: fabric_supplier
+      language: tn
+      keywords: ["نبيع قماش", "نشرى قماش"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []
+  fr:
+    - intent: job_offer
+      language: fr
+      keywords: ["recrute", "recrutement", "cherche ouvri", "cherche couturi", "offre d'emploi", "offre emploi", "embauche", "poste disponible"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: ["à vendre", "a vendre"]
+    - intent: atelier
+      language: fr
+      keywords: ["atelier", "couture", "couturière", "couturiere", "retouche", "confection", "modéliste", "modeliste", "patronage", "piquage", "broderie", "impression", "disponible", "styliste", "couturier"]
+      weight: 3
+      require_phone: false
+      exclude_keywords: ["usine"]
+    - intent: factory
+      language: fr
+      keywords: ["usine", "unité de production", "unite de production", "industrie textile", "confection industrielle", "factory", "chaine de production"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []
+    - intent: subcontractor
+      language: fr
+      keywords: ["façon", "facon", "façonnage", "faconnage", "sous-traitance", "sous traitance", "sous-traitant", "donneur d'ordre", "travail à façon", "travail a facon"]
+      weight: 6
+      require_phone: false
+      exclude_keywords: []
+    - intent: fabric_supplier
+      language: fr
+      keywords: ["tissu", "tissus", "fournisseur", "grossiste", "mercerie", "jersey", "popeline", "satin", "accessoires couture", "boutons", "fermeture éclair", "fermeture eclair"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []
+  en:
+    - intent: job_offer
+      language: en
+      keywords: ["hiring", "job offer", "vacancy", "seamstress needed", "tailor needed", "workers needed"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: ["for sale"]
+    - intent: atelier
+      language: en
+      keywords: ["atelier", "tailor", "tailoring", "sewing", "dressmaker", "pattern making", "embroidery", "printing"]
+      weight: 3
+      require_phone: false
+      exclude_keywords: ["factory"]
+    - intent: factory
+      language: en
+      keywords: ["factory", "garment factory", "production unit", "manufacturing", "textile industry"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []
+    - intent: subcontractor
+      language: en
+      keywords: ["subcontract", "subcontractor", "outsourcing", "bulk orders", "cut make trim", "cmt"]
+      weight: 6
+      require_phone: false
+      exclude_keywords: []
+    - intent: fabric_supplier
+      language: en
+      keywords: ["fabric", "fabrics", "textile supplier", "jersey", "poplin", "satin", "trims", "buttons", "zipper"]
+      weight: 4
+      require_phone: false
+      exclude_keywords: []

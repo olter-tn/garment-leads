@@ -1,0 +1,9 @@
+{
+  "id": "post_004_ar_fabric",
+  "text": "نبيع قماش جرسي و ساتان بالجملة في المنستير. واتساب 21650111222",
+  "expected_phones": [
+    "+21650111222"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 1
+}

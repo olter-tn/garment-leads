@@ -1,0 +1,9 @@
+{
+  "id": "post_025_parentheses",
+  "text": "Fournisseur accessoires couture, boutons et fermeture eclair. Tél (74) 555 666",
+  "expected_phones": [
+    "+21674555666"
+  ],
+  "expected_intent": "fabric_supplier",
+  "expected_leads": 1
+}

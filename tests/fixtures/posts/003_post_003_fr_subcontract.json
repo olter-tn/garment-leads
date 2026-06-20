@@ -1,0 +1,9 @@
+{
+  "id": "post_003_fr_subcontract",
+  "text": "Atelier de confection cherche sous-traitance et travail à façon. Tél 00216 29 111 222",
+  "expected_phones": [
+    "+21629111222"
+  ],
+  "expected_intent": "subcontractor",
+  "expected_leads": 1
+}

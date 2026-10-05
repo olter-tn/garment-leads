@@ -1,0 +1,30 @@
+name: Stage encrypted Farbi preview bundle
+
+on:
+  push:
+    branches: [farbi-render-preview-20261005-bootstrap]
+    paths:
+      - '.github/workflows/farbi-stage-bundle.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: farbi-render-preview-20261005-bootstrap
+      - name: Fetch encrypted preview bundle
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 2 'https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b708-8210-bbc0-fd5a8f4fa23b/raw?se=2026-10-05T22%3A06%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=99e7d0af-685f-5490-84f0-d78fa88fd61a&skoid=e5e3659d-4463-4dbf-b2ce-ee32bc0a0a8d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-05T02%3A09%3A17Z&ske=2026-10-06T02%3A09%3A17Z&sks=b&skv=2026-02-06&sig=Bo5FPSf3EcF3irq/Qk2e2zh4ianJLAuzlVfi8BTGgmg%3D' -o .farbi_deploy/farbi_preview.enc
+          echo '301fdd06c47ee12a00458cce27389700a25998edaf533144dbb00fd401c72aec  .farbi_deploy/farbi_preview.enc' | sha256sum -c -
+      - name: Commit encrypted payload
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .farbi_deploy/farbi_preview.enc
+          git commit -m 'chore: stage encrypted Farbi preview bundle [skip ci]'
+          git push origin HEAD:farbi-render-preview-20261005-bootstrap
